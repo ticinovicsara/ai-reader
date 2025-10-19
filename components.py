@@ -44,7 +44,7 @@ def show_qa_modal(master, document_text):
         if not q:
             return
         entry.delete(0, "end")
-        update_chat(f"Q: {q}")
+        update_chat(f"You: {q}")
 
         thinking_index = chat.index("end-1c")
         update_chat("AI: Thinking...")
