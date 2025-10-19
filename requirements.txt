@@ -1,0 +1,5 @@
+customtkinter
+requests
+python-docx
+PyPDF2
+foundry-local
